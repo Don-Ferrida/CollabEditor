@@ -122,7 +122,7 @@ To run this project locally:
 
 1. **Clone the repository**
 
-git clone https://github.com/yourusername/document-collab-app.git
+git clone https://github.com/Don-Ferrida/CollabEditor.git
 
 cd document-collab-app
 

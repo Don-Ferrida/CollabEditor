@@ -1,0 +1,10 @@
+# Firebase config
+collaborative-editor/src/firebaseConfig.jsx
+server/firebase-service-account.json
+
+# Node modules
+collaborative-editor/node_modules/
+server/node_modules/
+
+# Environment variables
+server/.env

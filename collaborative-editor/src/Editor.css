@@ -1,0 +1,126 @@
+.editor-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+}
+
+.editor-header {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.save-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #1e40af;
+}
+
+.title-input {
+  width: 100%;
+  max-width: 1000px;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: white;
+  outline: none;
+}
+
+.content-area {
+  width: 100%;
+  max-width: 1000px;
+  height: 70vh;
+  font-size: 17px;
+  padding: 18px 20px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: white;
+  line-height: 1.6;
+  resize: none;
+  outline: none;
+}
+
+.title-input::placeholder,
+.content-area::placeholder {
+  color: #f0f0f0;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.owner-style {
+  color: white;
+}
+
+.collab-style {
+  color: #2c2c2c;
+  font-style: italic;
+}
+.collab-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #2c2c2c;
+}
+.Modal {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collab-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
